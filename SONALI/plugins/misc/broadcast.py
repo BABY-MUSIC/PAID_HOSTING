@@ -4,17 +4,17 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.errors import FloodWait
 
-from YTMUSIC import app
+from SONALI import app
 from config import OWNER_ID
-from YTMUSIC.utils.database import (
+from SONALI.utils.database import (
     get_active_chats,
     get_authuser_names,
     get_client,
     get_served_chats,
     get_served_users,
 )
-from YTMUSIC.utils.decorators.language import language
-from YTMUSIC.utils.formatters import alpha_to_int
+from SONALI.utils.decorators.language import language
+from SONALI.utils.formatters import alpha_to_int
 from config import adminlist
 
 IS_BROADCASTING = False
